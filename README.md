@@ -10,6 +10,22 @@ $ npm install --save naver-ratings-api
 
 ## Usage
 
+The Date has to be in RFC2822 or ISO format, the year will get discarded, so until now it is only possible to search for the current year. Note that the date is more accurate for single episode searches.
+
+```js
+const Naver = require('naver-ratings-api');
+Naver('런닝맨', '2018-07-22').then(ratingsData => {
+  console.log(ratingsData);
+})
+```
+
+Example output:
+
+```
+[ { episode: '410', date: '2018.07.22. (일) 오후 04:50', rating: '9.5%' } ]
+```
+
+
 ```js
 const Naver = require('naver-ratings-api');
 Naver('런닝맨').then(ratingsData => {

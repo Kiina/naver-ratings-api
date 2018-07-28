@@ -5,8 +5,8 @@ const {
 /**
 * Naver class.
 */
-function Naver(showname) {
-  return scrapeNaver(showname);
+function Naver(showname, date) {
+  return scrapeNaver(showname, date);
 }
 
 module.exports = Naver;
