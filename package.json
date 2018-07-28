@@ -1,0 +1,23 @@
+{
+  "name": "naver-ratings-api",
+  "version": "0.0.1",
+  "description": "Scrapes ratings for a show from naver. Will be updated with more functions and better scraping later. Can only scrape the last 30 episodes as of now.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiina/naver-ratings-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kiina/naver-ratings-api/issues"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "node-fetch": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dominic Dey-Marckmann",
+  "license": "MIT"
+}
